@@ -3,3 +3,22 @@ body {
     background: #252626;
     color: #fff;
 }
+.container {
+    margin-top: 2em;
+    
+}
+header nav {
+    background-color: #88082b;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #efefef;
+}
+.navbar-toggler-icon {
+    background-image: url("./assets/img/menu-alt-512.png");
+}

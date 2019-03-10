@@ -1,9 +1,24 @@
-<main>
-    <div class="container">
-  <form [formGroup] = 'appForm'>
-    <app-input formControlName='sellOne'></app-input><br>
-    <input type="button" class="btn btn-primary" (click)="showControl()" value="Check form">
+<div class="container">
+  <h2>Home page - Sign up</h2>
+  <form [formGroup]='appForm'>
+    <div class="col-sm-6">
+      <label aria-describedby="First Name">First Name *</label>
+      <app-input formControlName='sellOne'></app-input><br>
+    </div>
+    <div class="col-sm-6">
+      <label aria-describedby="First Name">Last Name *</label>
+      <app-input formControlName='sellOne'></app-input><br>
+    </div>
+    <div class="col-sm-6">
+      <label aria-describedby="First Name">Date of Birth*</label>
+      <app-input formControlName='sellOne'></app-input><br>
+    </div>
+    <div class="col-sm-6">
+      <label aria-describedby="First Name">Phone no*</label>
+      <app-input formControlName='sellOne'></app-input><br>
+    </div>
+    <div class="col-sm-6">
+      <input type="button" class="btn btn-primary form-control" (click)="showControl()" value="Sign up">
+    </div>
   </form>
-  
-  </div>
-  </main>
+</div>
