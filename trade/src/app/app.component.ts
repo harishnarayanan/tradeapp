@@ -9,7 +9,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class AppComponent implements OnInit {
 
   appForm: FormGroup;
-  title = 'trade';
+  title = 'Trade App';
   constructor( private fb: FormBuilder) {
 
   }
