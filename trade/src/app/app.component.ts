@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -8,18 +7,15 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class AppComponent implements OnInit {
 
-  appForm: FormGroup;
   title = 'Trade App';
-  constructor( private fb: FormBuilder) {
+  constructor() {
 
   }
 
   ngOnInit() {
-    this.appForm = this.fb.group({
-      sellOne: ['',[Validators.required]]
-    });
+
   }
   showControl() {
-    console.log(this.appForm);
+
   }
 }
